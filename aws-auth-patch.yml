@@ -11,7 +11,7 @@ data:
       username: system:node:{{EC2PrivateDNSName}}
     - groups:
       - system:masters
-      rolearn: arn:aws:iam::114660512486:role/WinchyFlaskDeployCBKubectlRole
+      rolearn: arn:aws:iam::114660512486:role/docker2k8s
       username: build
 kind: ConfigMap
 metadata:
