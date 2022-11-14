@@ -31,7 +31,7 @@ spec:
     spec:
       containers:
         - name: simple-jwt-api
-          image: CONTAINER_IMAGE
+          image: winchy82dev/docker2k8s
           securityContext:
             privileged: false
             readOnlyRootFilesystem: false
